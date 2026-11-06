@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         万能剪藏 · Universal Clipper
-// @namespace    https://local.universal.clipper
+// @namespace    https://github.com/BErrybearl/UniversalClipper
 // @version      1.3.0
 // @description  通用网页剪藏：一键把文章、社区帖、文档、论坛内容转为本地 Markdown（含完整元数据与图片本地化）。内置站点适配器，可扩展。
-// @author       -
+// @author       BErrybearl
 // @match        *://*/*
 // @exclude      *://localhost/*
 // @exclude      *://127.0.0.1/*
@@ -17,7 +17,6 @@
 // @connect      *
 // @noframes
 // @run-at       document-idle
-// @noframes
 // ==/UserScript==
 
 /* ================================================================== *
