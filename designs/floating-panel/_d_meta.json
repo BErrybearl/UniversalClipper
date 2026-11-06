@@ -1,0 +1,23 @@
+{
+  "type": "design",
+  "designSystems": [],
+  "primaryDesignSystem": null,
+  "assets": {
+    "万能剪藏浮动面板": {
+      "versions": [
+        {
+          "path": "floating-panel.html",
+          "createdAt": "2026-10-07T07:14:23.384Z",
+          "status": "needs-review",
+          "subtitle": "正文预览、范围确认与导出反馈",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          }
+        }
+      ]
+    }
+  },
+  "createdAt": "2026-10-07T07:14:23.389Z",
+  "updatedAt": "2026-10-07T07:20:48.580Z"
+}

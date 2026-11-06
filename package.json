@@ -1,0 +1,17 @@
+{
+  "name": "universal-clipper",
+  "version": "1.3.0",
+  "description": "万能剪藏（浏览器内用户脚本）—— 核心逻辑与回归测试",
+  "private": true,
+  "scripts": {
+    "test": "node test-core.js && node test-snowman.js && node test-xueqiu-api.js && node test-workflow.js && node test-ui.js && node test-entry.js",
+    "setup": "npm ci --ignore-scripts"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.2"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  }
+}
