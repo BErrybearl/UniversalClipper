@@ -111,6 +111,8 @@ Node.js 版本要求：^22.22.2 || ^24.15.0 || >=26.0.0。测试依赖固定为 
     npm run setup
     npm test
 
+主 PC 上 `node_modules` 是指向仓库外本地缓存目录的目录联接。`npm ci` 会先删除整个 `node_modules`，在联接上直接运行可能清掉缓存里的真实内容，重装前先用 `cmd /c rmdir node_modules` 只删联接，装完再按需移回缓存目录并重建联接。
+
 | 测试文件 | 检查范围 |
 |---|---|
 | test-core.js | 转换后的正文结构、行内连续性、YAML 字符串与文件名 |
